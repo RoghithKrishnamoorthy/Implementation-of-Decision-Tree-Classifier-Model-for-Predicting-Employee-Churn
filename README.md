@@ -8,10 +8,12 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. import the required libraries.
+2. Upload and read the dataset.
+3. Check for any null values using the isnull() function.
+4. From sklearn.tree import DecisionTreeClassifier and use criterion as entropy.
+5. Find the accuracy of the model and predict the required values by importing the required
+module from sklearn.
 
 ## Program:
 ```
@@ -58,12 +60,12 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 */
 ```
 
-## Output:![Screenshot 2023-10-12 093638](https://github.com/RoghithKrishnamoorthy/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119475474/0f85023d-76c1-416d-be80-70c7c603693b)
-![Screenshot 2023-10-12 094436](https://github.com/RoghithKrishnamoorthy/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119475474/40a8b885-c239-4677-a1c7-3e482060c834)
-![Screenshot 2023-10-12 093941](https://github.com/RoghithKrishnamoorthy/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119475474/771b2e45-d4ac-4f8e-8c61-8293fb9b3bfa)
-![Screenshot 2023-10-12 094032](https://github.com/RoghithKrishnamoorthy/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119475474/e8ee6e54-9b0e-4df6-a78d-9fde9b196068)
-![Screenshot 2023-10-12 094128](https://github.com/RoghithKrishnamoorthy/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119475474/0585143a-3326-4aa7-8d17-ef3a21c041bd)
-![Screenshot 2023-10-12 094324](https://github.com/RoghithKrishnamoorthy/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119475474/5d8e5828-928c-4c41-b202-35f04e11cd01)
+## Output:![ex 6 1.Initial data set](https://github.com/RoghithKrishnamoorthy/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119475474/0f85023d-76c1-416d-be80-70c7c603693b)
+![ex 6 2.Data Info](https://github.com/RoghithKrishnamoorthy/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119475474/40a8b885-c239-4677-a1c7-3e482060c834)
+![ex 6 3.Optimization of null values](https://github.com/RoghithKrishnamoorthy/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119475474/771b2e45-d4ac-4f8e-8c61-8293fb9b3bfa)
+![ex 6 4.Assignment of X and Y values](https://github.com/RoghithKrishnamoorthy/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119475474/e8ee6e54-9b0e-4df6-a78d-9fde9b196068)
+![ex 6 5.Converting string literals to numerical values using label encoder](https://github.com/RoghithKrishnamoorthy/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119475474/0585143a-3326-4aa7-8d17-ef3a21c041bd)
+![ex 6 6.Accuracy](https://github.com/RoghithKrishnamoorthy/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119475474/5d8e5828-928c-4c41-b202-35f04e11cd01)
 
 
 ## Result:
